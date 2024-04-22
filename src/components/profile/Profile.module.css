@@ -1,0 +1,46 @@
+.profile {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid #000;
+    padding-top: 20px;
+    width: 200px;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.avatar-block {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    /* row-gap: 8px; */
+
+}
+
+.avatar {
+    display: flex;
+    align-self: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: grey;
+}
+
+.username {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.tag {
+    margin-bottom: 5px;
+}
+
+.location {
+    margin-bottom: 5px;
+
+}
+
+.stats {
+
+}
