@@ -16,7 +16,7 @@ const Profile = ({
         <p className={styles.tag}>@{tag}</p>
         <p className={styles.location}>{location}</p>
       </div>
-      <ul>
+      <ul className={styles.stats}>
         <li>
           <span>Followers</span>
           <span>{followers}</span>
