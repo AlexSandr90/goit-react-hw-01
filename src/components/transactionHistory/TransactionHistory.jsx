@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import './TransactionHistory.module.css';
+import styles from './TransactionHistory.module.css';
 import TransactionHistoryItem from '../transactionHistoryItem/TransactionHistoryItem';
 import { Fragment } from 'react';
 
