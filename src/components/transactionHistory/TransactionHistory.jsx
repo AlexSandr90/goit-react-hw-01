@@ -15,13 +15,9 @@ const TransactionHistory = ({ items }) => {
       </thead>
 
       <tbody>
-        {items.map(({ id, type, amount, currency }) => (
+        {items.map(({ id, ...transaction }) => (
           <Fragment key={id}>
-            <TransactionHistoryItem
-              type={type}
-              amount={amount}
-              currency={currency}
-            />
+            <TransactionHistoryItem {...transaction} />
           </Fragment>
         ))}
       </tbody>
