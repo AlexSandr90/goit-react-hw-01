@@ -5,7 +5,7 @@ import { Fragment } from 'react';
 
 const TransactionHistory = ({ items }) => {
   return (
-    <table>
+    <table className={styles.table}>
       <thead>
         <tr>
           <th>Type</th>
